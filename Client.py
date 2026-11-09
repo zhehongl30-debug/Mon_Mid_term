@@ -5,8 +5,7 @@ import requests
 
 # 桌面 client 在本機執行，透過這個網址呼叫雲端 FastAPI server。
 # 部署至 Render 後請修改此網址為您的 Render 網址
-API_BASE_URL = "http://127.0.0.1:8000"
-
+API_BASE_URL = "https://mon-mid-term.onrender.com"
 # 顏色定義
 COLOR_BG = (18, 18, 19)
 COLOR_TEXT = (255, 255, 255)
